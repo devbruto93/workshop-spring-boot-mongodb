@@ -22,14 +22,17 @@ public class UserDTO implements Serializable {
     }
 
     public String getEmail() {
+
         return email;
     }
 
     public void setEmail(String email) {
+
         this.email = email;
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -38,10 +41,12 @@ public class UserDTO implements Serializable {
     }
 
     public String getId() {
+
         return id;
     }
 
     public void setId(String id) {
+
         this.id = id;
     }
 }
